@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>JC Lib Exceptions</Title>
+    <Authors>JC</Authors>
+    <Description>Some basics for working with exceptions</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JC.Lib.Base.Strings" Version="1.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>
